@@ -1,0 +1,23 @@
+E:\Software Development\ChemicalCompoundHelper\bin\Debug\net9.0\ChemicalCompoundHelper.deps.json
+E:\Software Development\ChemicalCompoundHelper\bin\Debug\net9.0\ChemicalCompoundHelper.dll
+E:\Software Development\ChemicalCompoundHelper\bin\Debug\net9.0\ChemicalCompoundHelper.pdb
+E:\Software Development\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software Development\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.AssemblyInfoInputs.cache
+E:\Software Development\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.AssemblyInfo.cs
+E:\Software Development\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.csproj.CoreCompileInputs.cache
+E:\Software Development\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.dll
+E:\Software Development\ChemicalCompoundHelper\obj\Debug\net9.0\refint\ChemicalCompoundHelper.dll
+E:\Software Development\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.pdb
+E:\Software Development\ChemicalCompoundHelper\obj\Debug\net9.0\ref\ChemicalCompoundHelper.dll
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\bin\Debug\net9.0\ChemicalCompoundHelper.deps.json
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\bin\Debug\net9.0\ChemicalCompoundHelper.dll
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\bin\Debug\net9.0\ChemicalCompoundHelper.pdb
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.AssemblyInfoInputs.cache
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.AssemblyInfo.cs
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.csproj.CoreCompileInputs.cache
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.sourcelink.json
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.dll
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\obj\Debug\net9.0\refint\ChemicalCompoundHelper.dll
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\obj\Debug\net9.0\ChemicalCompoundHelper.pdb
+C:\Users\pfre017\source\repos\ChemicalCompounds\src\ChemicalCompoundHelper\obj\Debug\net9.0\ref\ChemicalCompoundHelper.dll

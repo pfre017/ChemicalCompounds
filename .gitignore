@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/src/ChemicalCompoundHelper/.vs
+/src/ChemicalCompoundHelperTests/.vs
