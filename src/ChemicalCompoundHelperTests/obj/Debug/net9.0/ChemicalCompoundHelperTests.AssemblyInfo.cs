@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChemicalCompoundHelperTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a323c7b8f16ce147557c27539b518191b79b652")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a20bf6c6f93b0231fc5ba84a4dcb456adb8620cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChemicalCompoundHelperTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChemicalCompoundHelperTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

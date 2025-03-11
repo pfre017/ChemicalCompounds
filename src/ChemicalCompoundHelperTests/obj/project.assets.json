@@ -1154,9 +1154,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pfre017\\source\\repos\\ChemicalCompounds\\src\\ChemicalCompoundHelperTests\\ChemicalCompoundHelperTests.csproj",
+      "projectUniqueName": "C:\\Users\\pfre017\\Source\\Repos\\ChemicalCompounds\\src\\ChemicalCompoundHelperTests\\ChemicalCompoundHelperTests.csproj",
       "projectName": "ChemicalCompoundHelperTests",
-      "projectPath": "C:\\Users\\pfre017\\source\\repos\\ChemicalCompounds\\src\\ChemicalCompoundHelperTests\\ChemicalCompoundHelperTests.csproj",
+      "projectPath": "C:\\Users\\pfre017\\Source\\Repos\\ChemicalCompounds\\src\\ChemicalCompoundHelperTests\\ChemicalCompoundHelperTests.csproj",
       "packagesPath": "C:\\Users\\pfre017\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pfre017\\source\\repos\\ChemicalCompounds\\src\\ChemicalCompoundHelperTests\\obj\\",
       "projectStyle": "PackageReference",
@@ -1179,8 +1179,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\pfre017\\source\\repos\\ChemicalCompounds\\src\\ChemicalCompoundHelper\\ChemicalCompoundHelper.csproj": {
-              "projectPath": "C:\\Users\\pfre017\\source\\repos\\ChemicalCompounds\\src\\ChemicalCompoundHelper\\ChemicalCompoundHelper.csproj"
+            "C:\\Users\\pfre017\\Source\\Repos\\ChemicalCompounds\\src\\ChemicalCompoundHelper\\ChemicalCompoundHelper.csproj": {
+              "projectPath": "C:\\Users\\pfre017\\Source\\Repos\\ChemicalCompounds\\src\\ChemicalCompoundHelper\\ChemicalCompoundHelper.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HkWMPRAGH0o=",
+  "dgSpecHash": "3pkQUq+maR4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pfre017\\source\\repos\\ChemicalCompounds\\src\\ChemicalCompoundHelperTests\\ChemicalCompoundHelperTests.csproj",
+  "projectFilePath": "C:\\Users\\pfre017\\Source\\Repos\\ChemicalCompounds\\src\\ChemicalCompoundHelperTests\\ChemicalCompoundHelperTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pfre017\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\pfre017\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",

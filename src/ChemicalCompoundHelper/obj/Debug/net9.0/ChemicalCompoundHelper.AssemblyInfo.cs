@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChemicalCompoundHelper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f74fe93e916a88be3d0cf3eb24dbff695d79e92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a20bf6c6f93b0231fc5ba84a4dcb456adb8620cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChemicalCompoundHelper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChemicalCompoundHelper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

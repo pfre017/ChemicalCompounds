@@ -35,13 +35,6 @@ namespace ChemicalCompoundHelper
         {
             try
             {
-                //var client = new HttpClient
-                //{
-                //    BaseAddress = new Uri(URL)
-                //};
-                //client.DefaultRequestHeaders.Clear();
-                //client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-
                 string param = @$"detail?cas_rn={CASNumber}";
 
                 var response = _httpClient.GetAsync(param).Result;
@@ -68,9 +61,58 @@ namespace ChemicalCompoundHelper
                 return null;
             }
         }
+
+        //Provides the ability to search against the Common Chemistry data source
+        //Allows searching by CAS RN(with or without dashes), SMILES(canonical or isomeric), InChI(with or without the "InChI=" prefix), InChIKey, and name
+        //Searching by name allows use of a trailing wildcard(e.g., car*)
+        //All searches are case-insensitive
+        //The result is in the form of substance summary information
+        //The results are paginated, with a maximum page size of 100            // Not yet implemented
+        public async Task<SearchResponse?> SearchCompound(string searchString)
+        {
+            try
+            {
+                string param = @$"search?q={searchString}";
+
+                var response = _httpClient.GetAsync(param).Result;
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    //200
+                    var content = await response.Content.ReadAsStringAsync();
+
+                    SearchResponse? searchResults = JsonSerializer.Deserialize<SearchResponse>(content);
+                    return searchResults;
+                }
+                else if (response.StatusCode == System.Net.HttpStatusCode.BadRequest)
+                {
+                    //400
+                    Debug.Print("System.Net.HttpStatusCode.BadRequest");
+                    return null;
+
+                }
+                else
+                    return null;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
     }
 
+    public class SearchResponse
+    {
+        public int count { get; set; }
+        public List<SearchResult> results { get; set; }
+    }
 
+    public class SearchResult
+    {
+        public string rn { get; set; }
+        public string name { get; set; }
+        public List<string> images { get; set; }
+    }
 
     public class CASDetailProperty
     {

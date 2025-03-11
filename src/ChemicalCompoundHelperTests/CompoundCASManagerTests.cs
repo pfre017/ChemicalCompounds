@@ -7,11 +7,31 @@ using Moq.Protected;
 using Xunit;
 using ChemicalCompoundHelper;
 using System.Diagnostics;
+using System.Text;
 
 namespace ChemicalCompoundHelper.Tests
 {
     public class CompoundCASManagerTests
     {
+        [Fact]
+        public async Task SearchName_ReturnsCASDetail()
+        {
+            // Arrange
+            var httpClient = new HttpClient()
+            {
+            };
+            var manager = new CompoundCASManager(httpClient);
+
+            //Act
+            var searchResponse = await manager.SearchCompound("Sodium chloride");
+
+            // Assert
+            Assert.NotNull(searchResponse);
+            Assert.Equal("7647-14-5", searchResponse.results[0].rn);
+            Assert.Equal("Sodium Chloride", searchResponse.results[0].name, ignoreCase: true);
+        }
+
+
         [Fact]
         public async Task GetCASDetail_ReturnsCASDetail_ActualIgnoreCase()
         {
